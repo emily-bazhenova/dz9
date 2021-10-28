@@ -1,0 +1,138 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.logo-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #95e1d3;
+}
+
+.nav-list {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-item {
+  margin-left: 55px;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #95e1d3;
+}
+
+.nav-link.active {
+  color: #f38181;
+  position: relative;
+}
+.nav-link:hover {
+  color: #f38181;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+  background-color: #f38181;
+}
+
+.our-team {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 68px;
+}
+
+.description {
+  padding: 0 50px;
+  text-align: center;
+}
+
+.above-heading {
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  line-height: 35px;
+  color: #333333;
+}
+
+.heading {
+  position: relative;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #333333;
+  margin-bottom: 85px;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 60px;
+  left: 102px;
+  bottom: -40px;
+  background-color: #f38181;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
+  color: #b6b6b6;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 27px;
+}
+
+ul {
+  padding: 0;
+}
+
+.image {
+  margin-bottom: 30px;
+}
+
+.name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-variant: small-caps;
+  line-height: 17px;
+  text-align: center;
+  color: #333333;
+  margin: 0 0 11px 0;
+}
+
+.position {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #b6b6b6;
+  margin: 0;
+}
