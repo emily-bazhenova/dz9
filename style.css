@@ -174,7 +174,6 @@ ul {
 .service-items {
   display: flex;
   width: 350px;
-  margin: 0 auto;
 }
 
 .service-items:nth-child(-n + 3) {
