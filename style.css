@@ -247,15 +247,16 @@ input::placeholder {
 }
 
 .button {
-  width: 150px;
-  height: 41px;
-  background: #95e1d3;
-  border: none;
   font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   color: #fff;
   text-transform: uppercase;
+  border: none;
+  width: 150px;
+  height: 41px;
+  background-color: #95e1d3;
 }
 
 .copyrights {
