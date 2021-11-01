@@ -242,6 +242,7 @@ input::placeholder {
   font-size: 14px;
   line-height: 16px;
   color: #b6b6b6;
+  text-transform: capitalize;
 }
 
 .button {
