@@ -63,6 +63,7 @@ h3 {
   width: 1200px;
   margin: 0 auto;
   padding-top: 125px;
+  padding-bottom: 89px;
 }
 
 .description {
@@ -206,4 +207,57 @@ ul {
   line-height: 22px;
   color: #b6b6b6;
   margin: 0;
+}
+
+.footer {
+  border-top: solid 1px #b6b6b6;
+  height: 41px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  border: 1px solid #b6b6b6;
+  width: 230px;
+  height: 39px;
+  left: 1180px;
+  top: 1569px;
+  display: inline-block;
+  margin-top: 1px;
+  padding: 0 10px;
+}
+
+input::placeholder {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b6b6b6;
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  background: #95e1d3;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.copyrights {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+.footer-link {
+  color: #f38181;
 }
