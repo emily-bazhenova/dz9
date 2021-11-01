@@ -214,7 +214,7 @@ ul {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   border-top: solid 1px #b6b6b6;
   height: 50px;
   width: 1200px;
