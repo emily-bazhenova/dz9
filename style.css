@@ -220,14 +220,18 @@ ul {
   justify-content: space-between;
 }
 
+form {
+  display: flex;
+  aline-items: center;
+  margin-top: 1px;
+}
+
 input {
   border: 1px solid #b6b6b6;
   width: 230px;
   height: 39px;
   left: 1180px;
   top: 1569px;
-  display: inline-block;
-  margin-top: 1px;
   padding: 0 10px;
 }
 
@@ -243,7 +247,7 @@ input::placeholder {
 
 .button {
   width: 150px;
-  height: 40px;
+  height: 41px;
   background: #95e1d3;
   border: none;
   font-family: "Montserrat", sans-serif;
