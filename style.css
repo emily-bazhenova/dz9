@@ -227,6 +227,9 @@ form {
 }
 
 input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #333333;
   border: 1px solid #b6b6b6;
   border-right: none;
   width: 230px;
